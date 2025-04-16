@@ -201,6 +201,7 @@ function applyUserArray() {
     // Update the array size counter but don't adjust the slider
     // This is important to maintain visual consistency
     arraySize = inputArray.length;
+    updateControls();
 }
 
 // Create a number box
