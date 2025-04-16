@@ -60,9 +60,13 @@ Open index.html in your preferred browser.
 
 📁 Folder Structure
 📦 sortlogic/
+ 
  ┣ 📜 index.html
+ 
  ┣ 📜 style.css
+ 
  ┣ 📜 script.js
+ 
  ┗ 📂 assets/ (optional - for images, logos, etc.)
 
 
