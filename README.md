@@ -40,7 +40,7 @@ Welcome to **SortLogic**, an intuitive, educational, and visually appealing web-
 
 ## 📷 Screenshots
 
-| Home | Sorting |
+| Random Input | User Input |
 |------|---------|
 | ![Home](./Home.png) | ![Sorting](./user-input.png) |
 
