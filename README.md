@@ -54,6 +54,7 @@ To run this project locally:
    ```bash
    git clone https://github.com/YOUR_USERNAME/sortlogic.git
    cd sortlogic
+---
 
 2.Launch in browser
 Open index.html in your preferred browser.
@@ -69,6 +70,7 @@ Open index.html in your preferred browser.
  
   ┗ 📂 assets/ (optional - for images, logos, etc.)
 
+---
 
 🌟 Future Enhancements
    • Add more sorting algorithms (Heap Sort, Shell Sort, etc.)
