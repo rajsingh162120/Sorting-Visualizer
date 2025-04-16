@@ -59,27 +59,27 @@ To run this project locally:
 Open index.html in your preferred browser.
 
 📁 Folder Structure
-📦 sortlogic/
+ 📦 sortlogic/
  
- ┣ 📜 index.html
+  ┣ 📜 index.html
  
- ┣ 📜 style.css
+  ┣ 📜 style.css
  
- ┣ 📜 script.js
+  ┣ 📜 script.js
  
- ┗ 📂 assets/ (optional - for images, logos, etc.)
+  ┗ 📂 assets/ (optional - for images, logos, etc.)
 
 
 🌟 Future Enhancements
-• Add more sorting algorithms (Heap Sort, Shell Sort, etc.)
+   • Add more sorting algorithms (Heap Sort, Shell Sort, etc.)
 
-• Code snippet view for each algorithm
+   • Code snippet view for each algorithm
 
-• Audio explanations per step
+   • Audio explanations per step
 
-• Light/Dark theme toggle
+   • Light/Dark theme toggle
 
-• Export sorting as animation (GIF or video)
+   • Export sorting as animation (GIF or video)
 
 📨 Feedback
 Found a bug or want to suggest a feature? Feel free to open an issue or connect via the live site.
