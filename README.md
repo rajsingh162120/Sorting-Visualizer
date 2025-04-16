@@ -42,7 +42,7 @@ Welcome to **SortLogic**, an intuitive, educational, and visually appealing web-
 
 | Home | Sorting |
 |------|---------|
-| ![Home](./d74f9705-39bc-4f14-b1e0-45fa603a0886.png) | ![Sorting](./e5432100-b320-421e-afed-610fdb96b0f5.png) |
+| ![Home](./Home.png) | ![Sorting](./user-input.png) |
 
 ---
 
