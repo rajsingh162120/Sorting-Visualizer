@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sorting Visualizer</h1>
+        
+        <div class="tab-container">
+            <div class="tab active" data-tab="random">Random Array</div>
+            <div class="tab" data-tab="user">Custom Input</div>
+        </div>
+        
+        <div class="controls-section">
+            <div class="controls">
+                <button id="generateArrayBtn">Generate New Array</button>
+                
+                <div class="control-group">
+                    <label for="algorithmSelect">Algorithm</label>
+                    <select id="algorithmSelect">
+                        <option value="bubble">Bubble Sort</option>
+                        <option value="selection">Selection Sort</option>
+                        <option value="insertion">Insertion Sort</option>
+                        <option value="merge">Merge Sort</option>
+                        <option value="quick">Quick Sort</option>
+                    </select>
+                </div>
+                
+                <div class="control-group">
+                    <label for="sizeInput">Array Size: <span id="sizeValue">50</span></label>
+                    <input type="range" id="sizeInput" min="10" max="100" value="50">
+                </div>
+                
+                <div class="control-group">
+                    <label for="speedInput">Animation Speed: <span id="speedValue">50</span>ms</label>
+                    <input type="range" id="speedInput" min="5" max="200" value="50" step="5">
+                </div>
+                
+                <button id="sortBtn">Sort!</button>
+                <button id="pauseBtn" disabled>Pause</button>
+                <button id="resetBtn">Reset</button>
+            </div>
+        </div>
+        
+        <div class="user-input-section" id="userInputSection">
+            <h3>Enter Your Custom Array</h3>
+            <p>Enter numbers separated by commas (e.g., 45, 20, 30, 70, 15)</p>
+            <input type="text" id="userArrayInput" placeholder="e.g., 45, 20, 30, 70, 15">
+            <button id="applyUserArrayBtn">Apply</button>
+        </div>
+        
+        <div class="array-container" id="arrayContainer">
+            <!-- Array bars will be generated here -->
+        </div>
+        
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-label">Comparisons</div>
+                <div class="stat-value" id="comparisons">0</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Swaps</div>
+                <div class="stat-value" id="swaps">0</div>
+            </div>
+            <div class="stat">
+                <div class="stat-label">Time</div>
+                <div class="stat-value" id="time">0.00s</div>
+            </div>
+        </div>
+        <div class="text-log-container">
+            <h3>Sorting Steps Log</h3>
+            <div class="text-log" id="textLog">
+                <p class="log-empty">Sorting steps will appear here once you start sorting...</p>
+            </div>
+        </div>
+        <div class="info" id="algorithmInfo">
+            <!-- Algorithm info will be inserted here -->
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
